@@ -15,6 +15,8 @@ app.use(cors({
 }));
 // app.use(cors());
 
+
+
 // Mount express json middleware after Better Auth handler
 // or only apply it to routes that don't interact with Better Auth
 app.all("/api/auth/*", toNodeHandler(auth));
