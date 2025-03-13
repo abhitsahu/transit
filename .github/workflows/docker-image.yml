@@ -21,8 +21,8 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t your-dockerhub-username/your-app:latest -f backend/Dockerfile backend/
-          docker push your-dockerhub-username/your-app:latest
+            docker build -t abhitsahu/your-app:latest -f backend/Dockerfile backend/
+            docker push abhitsahu/your-app:latest
 
       - name: Deploy to AWS EC2
         uses: appleboy/ssh-action@v0.1.10
