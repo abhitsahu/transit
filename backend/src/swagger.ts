@@ -14,7 +14,7 @@ const options: swaggerJsdoc.Options = {
     },
     servers: [
       {
-        url: process.env.BETTER_AUTH_URL || "http://localhost:8000",
+        url: process.env.BETTER_AUTH_URL || "https://transitco.in",
       },
     ],
   },
