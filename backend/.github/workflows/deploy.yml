@@ -35,3 +35,6 @@ jobs:
             docker rm your-app || true
             docker pull your-dockerhub-username/your-app:latest
             docker run -d -p 8000:8000 --name your-app --env-file .env your-dockerhub-username/your-app:latest
+
+
+
