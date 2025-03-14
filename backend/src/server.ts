@@ -26,7 +26,7 @@ setupSwagger(app);
 app.use('/api', rootRouter);
 
 app.get('/', (req, res) => {
-    res.json({ message: 'Welcome to the Express server with Prisma and Better Auth' });
+    res.json({ message: 'Welcome to the Express server with Prisma and Better Auth...' });
     
 });
 
