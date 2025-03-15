@@ -2,7 +2,7 @@ import { createAuthClient } from "better-auth/react";
 import { phoneNumberClient } from "better-auth/client/plugins"
 
 export const authClient = createAuthClient({
-    baseURL: process.env.BACKEND_APP_URL || 'http://localhost:8000',
+    baseURL: process.env.BACKEND_APP_URL || 'https://api.transitco.in',
     fetchOptions: {
         credentials: 'include'
     },
